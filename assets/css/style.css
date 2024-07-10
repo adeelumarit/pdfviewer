@@ -1,0 +1,60 @@
+/* loader style */
+/*Loader css*/
+.overlay-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.733);
+    /* Semi-transparent white */
+    z-index: 999;
+    /* Ensure the overlay stays on top */
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles for the overlay if needed */
+}
+
+
+/* loader.css */
+.dimmed {
+    opacity: 0.5;
+    pointer-events: none;
+    /* To prevent interaction with the dimmed content */
+}
+
+.rvgcg50 {
+    background-color: whitesmoke !important;
+    color: #005A9E !important;
+}
+
+.r2j19ip:focus {
+    outline: none !important;
+}
+
+/* src/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f2f1;
+}
+
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
